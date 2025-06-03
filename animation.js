@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     animateSkillBars();
     
     // Typing animation for hero section
-    const roles = ['AI Researcher', 'Machine Learning Engineer', 'Data Scientist', 'Deep Learning Specialist'];
+    const roles = ['Data Analyst', 'Machine Learning Engineer', 'Data Scientist', 'Business Analyst'];
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -54,8 +54,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const currentRole = roles[roleIndex];
         const displayText = heroText.innerHTML;
         
-        if (displayText.includes('M.Tech in ')) {
-            const baseText = 'M.Tech in <span class="highlight">Artificial Intelligence</span>';
+        if (displayText.includes('B.Tech in ')) {
+            const baseText = 'B.Tech in <span class="highlight">Aerospace Engineering</span>';
             
             if (isDeleting) {
                 // If deleting, find the position of the role in the text
